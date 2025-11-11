@@ -6,15 +6,17 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers Hurricane Helene (2024), and more specifically, an analysis of it landfall and postlandfall, where the tropycal is an integral module to do so.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+This cookbook will aid you in learning:
+- how to utilize tropycal for analyzing hurricane data
+- create plots of hurricane features/forecasts/data
 
 ## Authors
 
-[First Author](https://github.com/first-author1), [Second Author](https://github.com/second-author2), etc. _Acknowledge primary content authors here_
+[Thomas Weist](https://github.com/tweist27)
 
 ### Contributors
 
@@ -24,15 +26,15 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+For this practice cookbook, there will be 2 sections: Notebook 1 and Notebook 2.
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Notebook 1
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This notebook reads in HURDAT2 data of Hurricane Helene to grab forecasts, and create several plots, such as a forecasted hurricane track map initialized at landfall and the hurricane track with tornado tracks.
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Notebook 2
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This notebook utilizes rainfall data from NASA to plot the rainfall during September 27-28, 2024 from Hurricane Helene.
 
 ## Running the Notebooks
 

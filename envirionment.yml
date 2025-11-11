@@ -1,0 +1,14 @@
+numpy
+xarray
+pandas
+matplotlib
+metpy
+datetime
+geopandas
+geoviews
+holoviews
+lonboard
+tropycal
+cartopy
+CPyS
+s3fs

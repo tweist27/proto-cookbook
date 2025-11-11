@@ -3,7 +3,7 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Prototype Project Repo
+  title: AATM533 Homework 3
   github: https://github.com/projectpythia/cookbook-template
   authors:
     - name: Thomas Weist
@@ -16,9 +16,12 @@ project:
     - title: Introduction
       children:
         - file: notebooks/notebook-template.ipynb
-    - title: Xarray Notebook
+    - title: Notebook 1
       children:
-        - file: notebooks/xarray.ipynb
+        - file: notebooks/notebook1.ipynb
+    - title: Notebook 2
+      children:
+        - file: notebooks/notebook2.ipynb
   jupyter:
       binder:
         repo: projectpythia/cookbook-template
